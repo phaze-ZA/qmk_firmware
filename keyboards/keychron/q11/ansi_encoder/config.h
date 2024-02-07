@@ -21,3 +21,5 @@
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 23
+
+#define SPLIT_LAYER_STATE_ENABLE
