@@ -79,3 +79,12 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     }
     return false;
 }
+
+uint16_t get_quick_tap_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case TT(FN):
+            return TAPPING_TERM;
+        default:
+            return QUICK_TAP_TERM;
+    }
+}
