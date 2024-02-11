@@ -47,9 +47,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [FN] = LAYOUT_91_ansi(
         RGB_TOG,  _______,  KC_BRID,  KC_BRIU,  KC_TASK,  KC_FLXP,  RGB_VAD,      RGB_VAI,     KC_MPRV,     KC_MPLY,      KC_MNXT,      KC_MUTE,  KC_VOLD,    KC_VOLU,  _______,  _______,  RGB_TOG,
-        _______,  _______,  _______,  _______,  _______,  _______,  _______,      _______,     _______,     _______,      _______,      _______,  _______,    _______,  _______,            _______,
-        _______,  RGB_TOG,  RGB_MOD,  RGB_VAI,  RGB_HUI,  RGB_SAI,  RGB_SPI,      _______,     _______,     _______,      _______,      _______,  _______,    _______,  _______,            _______,
-        _______,  _______,  RGB_RMOD, RGB_VAD,  RGB_HUD,  RGB_SAD,  RGB_SPD,      KC_MS_LEFT,     KC_MS_DOWN,     KC_MS_UP,      KC_MS_RIGHT,  _______,  _______,              _______,            _______,
+        _______,  _______,  _______,  _______,  _______,  _______,  _______,      _______,     _______,     _______,      _______,      _______,  _______,    _______,  _______,            DT_UP,
+        _______,  RGB_TOG,  RGB_MOD,  RGB_VAI,  RGB_HUI,  RGB_SAI,  RGB_SPI,      _______,     _______,     _______,      _______,      _______,  _______,    _______,  _______,            DT_DOWN,
+        _______,  _______,  RGB_RMOD, RGB_VAD,  RGB_HUD,  RGB_SAD,  RGB_SPD,      KC_MS_LEFT,     KC_MS_DOWN,     KC_MS_UP,      KC_MS_RIGHT,  _______,  _______,              _______,            DT_PRNT,
         _______,  _______,            _______,  _______,  _______,  _______,      _______,     NK_TOGG,     _______,      _______,      _______,  _______,              _______,  KC_WH_D,
         _______,  _______,  _______,  _______,  _______,            KC_MS_BTN2,                             KC_MS_BTN1,                 _______,  _______,    _______,  KC_WH_R ,  KC_WH_U,  KC_WH_L),
     [GAME] = LAYOUT_91_ansi(
